@@ -1,0 +1,15 @@
+=begin
+Vagrant.configure("2") do |config|
+  config.vm.box_url = "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-Vagrant-Vbox.latest.aarch64.box"
+  config.vm.box = "rocky9"
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = false
+    vb.name = "rocky9"
+    vb.memory = 1024
+    vb.cpus = 2
+  end
+=end
+Vagrant.configure("2") do |config|
+  config.vm.box = "ceroc_purple_team/rocky9_arm64"
+  config.vm.box_version = "1.0.1"
+end
