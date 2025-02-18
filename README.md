@@ -34,14 +34,14 @@ Once that finishes, run ```vagrant up``` and wait for a few minutes (it might ta
 
 **Important:** You will need to be in the correct, initialized folder for any of these Vagrant commands to control the CPS environment, including to ssh to a machine.
 
-<img src="./assets/cps_rec.gif" width="80%" height="80%"/>
+<img src="./assets/vagrant_up.svg" width="80%" height="80%"/>
 
 ## Using the environment
 
 Once built, you can access the environment from Virtualbox, or by typing ```vagrant ssh```. If you have a multi-machine environment, this will be followed by the machine name.
 
 
-<img src="./assets/cps_access.gif" width="80%" height="80%"/>
+<img src="./assets/vagrant_ssh.svg" width="80%" height="80%"/>
 
 
 ## Stopping and Destroying
@@ -52,7 +52,7 @@ To completely destroy the environment, run ```vagrant destroy```.
 
 All of the vagrant commands must be ran from the folder with your Vagrantfile in it.
 
-<img src="./assets/cps_destroy.gif" width="80%" height="80%"/>
+<img src="./assets/vagrant_destroy.svg" width="80%" height="80%"/>
 
 ## Known Issues/Bugs
 
