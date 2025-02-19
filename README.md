@@ -34,7 +34,7 @@ Once that finishes, run ```vagrant up``` and wait for a few minutes (it might ta
 
 **Important:** You will need to be in the correct, initialized folder for any of these Vagrant commands to control the CPS environment, including to ssh to a machine.
 
-<img src="./assets/vagrant_up.svg" width="100%" height="100%"/>
+<img src="./assets/faster_vagrant_up.svg" width="100%" height="100%"/>
 
 ## Using the environment
 
